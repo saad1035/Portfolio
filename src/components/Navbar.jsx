@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import Logo from '../assets/Saad Naeem Logo.png'
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -12,27 +12,27 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between 
-    items-center px-4 bg-[#0a192f] text-gray-300'>
+    items-center px-4 bg-[#0a192f] text-[#8892b0]'>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '70px' }} />
       </div>
 
       {/* Menu */}
-      <ul className='hidden md:flex'>
+      <ul className={'hidden md:flex'}>
         <li>
-          <Link to="hero" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Home</Link>
+          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="hero" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Home</Link>
         </li>
         <li>
-          <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>About</Link>
+          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="about" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>About</Link>
         </li>
         <li>
-          <Link to="skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skills</Link>
+          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skills</Link>
         </li>
         <li>
-          <Link to="work" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Work</Link>
+          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="work" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Work</Link>
         </li>
         <li>
-          <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Contact</Link>
+          <Link className=' hover:border-pink-600 hover:border-b-4 hover:pb-2 font-bold' to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Contact</Link>
         </li>
       </ul>
 
