@@ -20,16 +20,16 @@ const Navbar = () => {
       {/* Menu */}
       <ul className={'hidden md:flex'}>
         <li>
-          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="hero" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Home</Link>
+          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="hero" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Home</Link>
         </li>
         <li>
           <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="about" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>About</Link>
         </li>
         <li>
-          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skills</Link>
+          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="skills" spy={true} smooth={true} offset={75} duration={500} onClick={closeMenu}>Skills</Link>
         </li>
         <li>
-          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="work" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Work</Link>
+          <Link className='hover:border-b-4 hover:border-pink-600 hover:pb-2 font-bold' to="work" spy={true} smooth={true} offset={150} duration={500} onClick={closeMenu}>Work</Link>
         </li>
         <li>
           <Link className=' hover:border-pink-600 hover:border-b-4 hover:pb-2 font-bold' to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Contact</Link>
