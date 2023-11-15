@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className='max-w-[1500px] w-full md:grid grid-cols-3 sm:text-1xl gap-8 px-5'>
                     <div className='col-span-2' >
-                        <p className='sm:text-left text-4xl font-bold'><span id="wave">👋</span> Hi. I'm Saad, nice to meet you. Please take a look around!</p>
+                        <p className='sm:text-left text-4xl font-bold'><span id="wave"  >👋</span> Hi. I'm Saad, nice to meet you. Please take a look around!</p>
                         <div className='py-4'>
                             <p> I am passionate about my building excellent software that improves
                                 the lives of thoes around me. I specialize in creating software for
