@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
-import Logo from '../assets/Saad Naeem Logo.png'
+import SaadLogo from "../assets/Logo.png"
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
@@ -12,9 +12,9 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between 
-    items-center px-4 bg-[#0a192f] text-[#8892b0]'>
+    items-center px-4 bg-[#0a192f] text-[#8892b0] z-50'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '70px' }} />
+        <img src={SaadLogo} alt='Logo Image' style={{ width: '70px' }} />
       </div>
 
       {/* Menu */}

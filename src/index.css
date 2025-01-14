@@ -17,6 +17,15 @@
     }
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    scroll-behavior: smooth; /* Preserve smooth scrolling */
+}
+
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,4 +120,13 @@ h1::before {
     animation: wave 2.1s 0.6s infinite;
     transform-origin: 75% 75%;
     display: inline-block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%; /* Ensure body height matches the content */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    overscroll-behavior: none;
 }

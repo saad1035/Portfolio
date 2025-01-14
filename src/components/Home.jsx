@@ -49,17 +49,15 @@ const Home = () => {
         </p>
 
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            <Link to="work" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>
+            <Link to="work" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} className='text-white group border-2 px-6 py-3 my-2 inline-flex items-center hover:bg-pink-600 hover:border-pink-600 cursor-pointer relative z-10'>
               View Work
-            </Link>
-            <span className='group-hover:rotate-90 duration-300'>
+              <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
-          </button>
+            </Link>
         </div>
 
-        <div className='flex w-full justify-between max-w-[400px] m-1 py-5'>
+        <div className='flex w-full justify-between max-w-[400px] m-1 py-5 relative z-10'>
           <div className='rounded-full shadow-lg shadow-[#040c16] p-7 cursor-pointer hover:scale-110 hover:bg-pink-600 ease-in duration-200'>
             <a href="linkedin.com/in/saad-naeem-3a07ab216" target="_blank" rel="noreferrer">
               <FaLinkedinIn color="white" fontSize="2.0em" />

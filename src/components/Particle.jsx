@@ -22,6 +22,10 @@ function Particle() {
 
       options={
         {
+          fullScreen: {
+            enable: true,
+            zIndex: 0, // Ensure particles are at the very back
+          },
           particles: {
             number: {
               value: 20,
