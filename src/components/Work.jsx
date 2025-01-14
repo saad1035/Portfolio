@@ -28,7 +28,6 @@ const Work = () => {
             lessons: [
                 "Mastered React hooks and state management.",
                 "Improved API integration skills.",
-                "Gained experience with text analysis tools.",
             ],
 
         },
