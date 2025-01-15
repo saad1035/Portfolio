@@ -23,7 +23,7 @@ const Home = () => {
   const [click, setClick] = useState(false)
   const closeMenu = () => setClick(false)
 
-  const interest = ["Full-Time University Student", "Western Mustang", "Weightlifter", "Computer Science Enthusiast", "Obsessive Gamer", "Aspiring Software Engineer", "Book Worm", "Food Lover", "Avid Gamer", "Technophile"];
+  const interest = ["Aspiring Software Engineer", "Western Mustang", "Gym Rat", "Tech Lover", "Spotify Addict", "Book Worm", "Foodie", "Thrifter", "Procrastinator"];
   const [interestIndex, setIndex] = useState(0);
 
   return (

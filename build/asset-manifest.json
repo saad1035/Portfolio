@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7c8edc7.css",
-    "main.js": "/static/js/main.22ec72b2.js",
+    "main.css": "/static/css/main.c7d9c375.css",
+    "main.js": "/static/js/main.d835fe0e.js",
     "static/js/937.4c2b7811.chunk.js": "/static/js/937.4c2b7811.chunk.js",
     "static/media/Unity.png": "/static/media/Unity.63429ff6ca5483afbcdc.png",
     "static/media/Track.png": "/static/media/Track.d297d38b43e623790115.png",
     "static/media/YoutubeSentiment.png": "/static/media/YoutubeSentiment.aff3a7b4616f477aafb7.png",
+    "static/media/Headshot 1.jpg": "/static/media/Headshot 1.f91fb818a6234edfa7a2.jpg",
     "static/media/Destify.png": "/static/media/Destify.83c9b1c9ed2be42ca2f9.png",
     "static/media/SIT.png": "/static/media/SIT.8c51622791c33cf4cd42.png",
     "static/media/CampfireCircle.png": "/static/media/CampfireCircle.ccd93f4c0154c3d9b036.png",
@@ -26,7 +27,6 @@
     "static/media/Jira Logo.png": "/static/media/Jira Logo.cb635bcb8af82425cba4.png",
     "static/media/Git Logo.png": "/static/media/Git Logo.d4eabdafced015ec651f.png",
     "static/media/NumPy Logo.png": "/static/media/NumPy Logo.4a730e28ba316ead67df.png",
-    "static/media/aboutpic.jpg": "/static/media/aboutpic.e8b2d7c8d0a30c8aef52.jpg",
     "static/media/AWS Logo.png": "/static/media/AWS Logo.1237dcb96fe43a664269.png",
     "static/media/SQL Logo.png": "/static/media/SQL Logo.7f7045d239b1d173a582.png",
     "static/media/Pandas Logo.png": "/static/media/Pandas Logo.a5948777e2720bfcd103.png",
@@ -45,12 +45,12 @@
     "static/media/CSharp Logo.webp": "/static/media/CSharp Logo.a6af11768bf84821b161.webp",
     "static/media/Nginx Logo.webp": "/static/media/Nginx Logo.e937291094e37cc953d7.webp",
     "index.html": "/index.html",
-    "main.e7c8edc7.css.map": "/static/css/main.e7c8edc7.css.map",
-    "main.22ec72b2.js.map": "/static/js/main.22ec72b2.js.map",
+    "main.c7d9c375.css.map": "/static/css/main.c7d9c375.css.map",
+    "main.d835fe0e.js.map": "/static/js/main.d835fe0e.js.map",
     "937.4c2b7811.chunk.js.map": "/static/js/937.4c2b7811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c8edc7.css",
-    "static/js/main.22ec72b2.js"
+    "static/css/main.c7d9c375.css",
+    "static/js/main.d835fe0e.js"
   ]
 }

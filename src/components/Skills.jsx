@@ -38,12 +38,14 @@ import Microsoft from '../assets/Microsoft Office Logo.png';
 
 const Skills = () => {
     return (
-        <div name='skills' className='relative w-full min-h-screen bg-[#0a192f] text-gray-300'>
+        <div name='skills' className='relative w-full min-h-screen bg-[#0a192f] text-gray-300 pt-20'>
             {/* Container */}
             <div className='relative z-10 max-w-[1500px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
-                    <p className='py-4'>// These are the technologies I've worked with...</p>
+                <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+                    <span className="text-pink-600">&lt;</span> Skills <span className="text-pink-600">/&gt;</span>
+                </p>
+                    <p className='py-6 -mb-8'>// These are the technologies I've worked with...</p>
                 </div>
 
                 <div className='py-8'>
